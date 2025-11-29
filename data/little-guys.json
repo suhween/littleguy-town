@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "little_guys": [
+    {
+      "id": "example-001",
+      "name": "Example Little Guy",
+      "creator": "selene",
+      "created_at": "2025-11-29",
+      "svg_path": "assets/little-guy-1.svg",
+      "colors": {
+        "primary": "#3b37ff",
+        "secondary": "#b5e6ff"
+      },
+      "features": {
+        "eyes": "simple",
+        "body_shape": "blob",
+        "accessories": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: #b5e6ff;
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    gap: 50.513px;
+    padding: 10px 20px;
+    font-size: 39.615px;
+    font-weight: 400;
+    line-height: 0.75;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    gap: 28.961px;
+}
+
+.wordmark {
+    width: 192.868px;
+    height: 86.27px;
+    margin-bottom: 10px;
+}
+
+.wordmark img {
+    width: 100%;
+    height: 100%;
+}
+
+.headline {
+    font-size: 35.435px;
+    line-height: 0.75;
+    max-width: 373.333px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Dongle', sans-serif;
+    font-size: 39.615px;
+    line-height: 0.75;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1.684px solid #3b37ff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 3.368px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b37ff;
+    color: #ffffff;
+}
+
+.floating-guy {
+    position: absolute;
+    will-change: transform;
+}
+
+#guy1 {
+    width: 116.854px;
+    height: 123.758px;
+}
+
+#guy2 {
+    width: 121.232px;
+    height: 106.246px;
+}
+
+#guy3 {
+    width: 123.758px;
+    height: 117.022px;
+}
+
+#guy4 {
+    width: 74.76px;
+    height: 123.758px;
+}
+
+#guy5 {
+    width: 95.807px;
+    height: 123.758px;
+}
+
+@media (max-width: 768px) {
+    .headline {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 32px;
+        padding: 8px 16px;
+    }
+
+    .floating-guy {
+        transform: scale(0.7);
+    }
+}
